@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WME Fancy Permalinks
 // @namespace    WazeDev
-// @version      2022.12.19.001
+// @version      2022.12.19.002
 // @description  Fancy permalinks for the Waze Map Editor
 // @author       dummyd2, maintained by many others
 // @license      TBD....
@@ -1534,7 +1534,7 @@
         AMli.appendChild(ulList);
     }
 
-    WMETB_FPgetSelectedProblemOrUR = function () {
+    function WMETB_FPgetSelectedProblemOrUR () {
         try {
             for (var m in W.map.problemLayer.markers) {
                 if (W.map.problemLayer.markers.hasOwnProperty(m)) {
